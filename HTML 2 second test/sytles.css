@@ -1,0 +1,91 @@
+* {
+    background: #000;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+@font-face {
+    font-family: Monument Extended;
+    src: url(./MonumentExtended/PPMonumentExtended-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Monument Extended;
+    font-style: italic;
+    src: url(./MonumentExtended/PPMonumentExtended-RegularItalic.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Monument Extended;
+    font-weight: bold;
+    src: url(./MonumentExtended/PPMonumentExtended-Black.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Monument Extended;
+    font-weight: bold;
+    font-style: italic;
+    src: url(./MonumentExtended/PPMonumentExtended-BlackItalic.otf) format("opentype");
+}
+
+
+
+@font-face {
+    font-family: Monument Extended;
+    font-weight: lighter;
+    src: url(./MonumentExtended/PPMonumentExtended-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Monument Extended;
+    font-weight: lighter;
+    font-style: italic;
+    src: url(./MonumentExtended/PPMonumentExtended-LightItalic.otf) format("opentype");
+}
+
+
+.navbar {}
+
+#navbar-name {
+    text-decoration: none;
+    display: flex;
+
+}
+
+
+.main-container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main-button-containter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 100%;
+    max-width: 1300px;
+
+}
+
+.main-button {
+    border-radius: 24px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    padding: 14px 32px;
+    width: 100%;
+}
